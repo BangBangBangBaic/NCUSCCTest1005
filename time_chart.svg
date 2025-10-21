@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="100%" height="100%" fill="#fff" />
+<style>text{font-family:Arial, Helvetica, sans-serif;}</style>
+<line x1="80" y1="520" x2="920" y2="520" stroke="#000"/>
+<line x1="80" y1="80" x2="80" y2="520" stroke="#000"/>
+<line x1="80.0" y1="520" x2="80.0" y2="526" stroke="#000"/>
+<text x="80.0" y="542" font-size="12" text-anchor="middle">9</text>
+<line x1="504.7501972326128" y1="520" x2="504.7501972326128" y2="526" stroke="#000"/>
+<text x="504.7501972326128" y="542" font-size="12" text-anchor="middle">1000</text>
+<line x1="920.0" y1="520" x2="920.0" y2="526" stroke="#000"/>
+<text x="920.0" y="542" font-size="12" text-anchor="middle">100000</text>
+<line x1="80" y1="520.0" x2="920" y2="520.0" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="520.0" x2="80" y2="520.0" stroke="#000"/>
+<text x="70" y="524.0" font-size="12" text-anchor="end">0.000110</text>
+<line x1="80" y1="476.0" x2="920" y2="476.0" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="476.0" x2="80" y2="476.0" stroke="#000"/>
+<text x="70" y="480.0" font-size="12" text-anchor="end">0.200099</text>
+<line x1="80" y1="432.0" x2="920" y2="432.0" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="432.0" x2="80" y2="432.0" stroke="#000"/>
+<text x="70" y="436.0" font-size="12" text-anchor="end">0.400088</text>
+<line x1="80" y1="388.0" x2="920" y2="388.0" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="388.0" x2="80" y2="388.0" stroke="#000"/>
+<text x="70" y="392.0" font-size="12" text-anchor="end">0.600077</text>
+<line x1="80" y1="344.0" x2="920" y2="344.0" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="344.0" x2="80" y2="344.0" stroke="#000"/>
+<text x="70" y="348.0" font-size="12" text-anchor="end">0.800066</text>
+<line x1="80" y1="300.0" x2="920" y2="300.0" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="300.0" x2="80" y2="300.0" stroke="#000"/>
+<text x="70" y="304.0" font-size="12" text-anchor="end">1.000055</text>
+<line x1="80" y1="255.99999999999994" x2="920" y2="255.99999999999994" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="255.99999999999994" x2="80" y2="255.99999999999994" stroke="#000"/>
+<text x="70" y="259.99999999999994" font-size="12" text-anchor="end">1.200044</text>
+<line x1="80" y1="212.0" x2="920" y2="212.0" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="212.0" x2="80" y2="212.0" stroke="#000"/>
+<text x="70" y="216.0" font-size="12" text-anchor="end">1.400033</text>
+<line x1="80" y1="168.0" x2="920" y2="168.0" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="168.0" x2="80" y2="168.0" stroke="#000"/>
+<text x="70" y="172.0" font-size="12" text-anchor="end">1.600022</text>
+<line x1="80" y1="124.00000000000006" x2="920" y2="124.00000000000006" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="124.00000000000006" x2="80" y2="124.00000000000006" stroke="#000"/>
+<text x="70" y="128.00000000000006" font-size="12" text-anchor="end">1.800011</text>
+<line x1="80" y1="80.0" x2="920" y2="80.0" stroke="#888" stroke-opacity="0.15"/>
+<line x1="74" y1="80.0" x2="80" y2="80.0" stroke="#000"/>
+<text x="70" y="84.0" font-size="12" text-anchor="end">2.000000</text>
+<path d="M 80.00 520.00 L 504.75 517.38 L 920.00 256.01" stroke="#1f77b4" stroke-width="2" fill="none" />
+<circle cx="80.00" cy="520.00" r="3" fill="#1f77b4" />
+<circle cx="504.75" cy="517.38" r="3" fill="#1f77b4" />
+<circle cx="920.00" cy="256.01" r="3" fill="#1f77b4" />
+<rect x="940" y="88" width="12" height="12" fill="#1f77b4" />
+<text x="958" y="100" font-size="12">quick_basic</text>
+<path d="M 80.00 520.00 L 504.75 517.49 L 920.00 267.01" stroke="#ff7f0e" stroke-width="2" fill="none" />
+<circle cx="80.00" cy="520.00" r="3" fill="#ff7f0e" />
+<circle cx="504.75" cy="517.49" r="3" fill="#ff7f0e" />
+<circle cx="920.00" cy="267.01" r="3" fill="#ff7f0e" />
+<rect x="940" y="108" width="12" height="12" fill="#ff7f0e" />
+<text x="958" y="120" font-size="12">quick_median</text>
+<path d="M 80.00 520.00 L 504.75 517.21 L 920.00 238.41" stroke="#2ca02c" stroke-width="2" fill="none" />
+<circle cx="80.00" cy="520.00" r="3" fill="#2ca02c" />
+<circle cx="504.75" cy="517.21" r="3" fill="#2ca02c" />
+<circle cx="920.00" cy="238.41" r="3" fill="#2ca02c" />
+<rect x="940" y="128" width="12" height="12" fill="#2ca02c" />
+<text x="958" y="140" font-size="12">quick_iterative</text>
+<path d="M 80.00 519.98 L 504.75 515.62 L 920.00 80.00" stroke="#d62728" stroke-width="2" fill="none" />
+<circle cx="80.00" cy="519.98" r="3" fill="#d62728" />
+<circle cx="504.75" cy="515.62" r="3" fill="#d62728" />
+<circle cx="920.00" cy="80.00" r="3" fill="#d62728" />
+<rect x="940" y="148" width="12" height="12" fill="#d62728" />
+<text x="958" y="160" font-size="12">merge_serial</text>
+<path d="M 80.00 519.99 L 504.75 516.72 L 920.00 190.01" stroke="#9467bd" stroke-width="2" fill="none" />
+<circle cx="80.00" cy="519.99" r="3" fill="#9467bd" />
+<circle cx="504.75" cy="516.72" r="3" fill="#9467bd" />
+<circle cx="920.00" cy="190.01" r="3" fill="#9467bd" />
+<rect x="940" y="168" width="12" height="12" fill="#9467bd" />
+<text x="958" y="180" font-size="12">merge_parallel</text>
+<path d="M 80.00 519.98 L 504.75 516.06 L 920.00 124.00" stroke="#8c564b" stroke-width="2" fill="none" />
+<circle cx="80.00" cy="519.98" r="3" fill="#8c564b" />
+<circle cx="504.75" cy="516.06" r="3" fill="#8c564b" />
+<circle cx="920.00" cy="124.00" r="3" fill="#8c564b" />
+<rect x="940" y="188" width="12" height="12" fill="#8c564b" />
+<text x="958" y="200" font-size="12">third_algorithm</text>
+<text x="500.0" y="584" font-size="14" text-anchor="middle">数据规模 (n)</text>
+<text x="20" y="300.0" font-size="14" transform="rotate(-90 20,300.0)" text-anchor="middle">运行时间 (秒)</text>
+</svg>

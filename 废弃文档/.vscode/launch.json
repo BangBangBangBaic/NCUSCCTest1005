@@ -1,0 +1,75 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch (GDB - MinGW)",
+            "type": "cppdbg",
+            "request": "launch",
+            // 调试当前打开文件同名的可执行文件（例如 main.cpp -> main.exe）
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            // 改为在可执行文件同目录运行，避免相对路径问题
+            "cwd": "${fileDirname}",
+            "environment": [],
+            // 在集成终端中运行，便于查看输出；如需外部终端可改为 true
+            "externalConsole": false,
+            "internalConsoleOptions": "openOnSessionStart",
+            "preLaunchTask": "Build Current File",
+            "MIMode": "gdb",
+            // 请改为本机 gdb 路径，例如 "C:\\mingw64\\bin\\gdb.exe" 或 "C:\\msys64\\usr\\bin\\gdb.exe"
+            "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            // 打开调试器日志以便排查问题，出问题时可贴日志给我
+            "logging": {
+                "engineLogging": true,
+                "trace": true
+            }
+        },
+        {
+            "name": "C++ Launch (Windows Debugger - MSVC)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            // 调试当前打开文件同名的可执行文件（适用于使用 MSVC 编译的 exe）
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "internalConsoleOptions": "openOnSessionStart",
+            "preLaunchTask": "Build Current File",
+            "logging": {
+                "engineLogging": true
+            }
+        }
+    ],
+    // 可选：如果希望在启动前自动编译，需要在 .vscode/tasks.json 中添加名为 "Build Current File" 的任务。
+    // 示例 tasks.json（若需要我可以一并创建）：
+    // {
+    //   "version": "2.0.0",
+    //   "tasks": [
+    //     {
+    //       "label": "Build Current File",
+    //       "type": "shell",
+    //       "command": "g++",
+    //       "args": ["-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}.exe"],
+    //       "group": {"kind": "build","isDefault": true}
+    //     }
+    //   ]
+    // }
+}
